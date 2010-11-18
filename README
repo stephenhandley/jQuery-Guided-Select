@@ -1,0 +1,23 @@
+use like this:
+
+html:
+<div id="leagues"></div>
+
+js:
+$('#leagues').guidedSelect({
+  name: 'url_type',
+  options: [
+    ['Football', 'NFL'], 
+    ['Basketball', 'NBA'], 
+    ['Baseball', 'MLB']
+  ],
+  prompt: 'SPORTS!',
+  userInputPrompt: '<some other sport>' 
+});
+
+todo:
+- add working example here
+- with css
+- add optional autocomplete hooks
+
+
